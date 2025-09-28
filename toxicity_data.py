@@ -4,9 +4,6 @@ This module bundles the small amount of boilerplate we need for
 preprocessing CSV/TSV inputs, tokenising text with HuggingFace
 transformers, and constructing the PyTorch ``Dataset`` objects consumed by
 our training and inference pipelines.
-
-All classes deliberately avoid performing any on-the-fly random
-augmentations so that evaluation and inference remain deterministic.
 """
 
 from __future__ import annotations
@@ -20,7 +17,7 @@ from torch.utils.data import Dataset
 from transformers import AutoTokenizer
 
 
-DEFAULT_CONTEXT_TOKENIZER = "sentence-transformers/all-mpnet-base-v2"
+DEFAULT_CONTEXT_TOKENIZER = "microsoft/deberta-v3-base"
 DEFAULT_TOXICITY_TOKENIZER = "microsoft/deberta-v3-base"
 
 
@@ -28,52 +25,6 @@ def preprocess_text(text: str) -> str:
     """Collapse excess whitespace and strip control characters from ``text``."""
 
     return " ".join(text.replace("\n", " ").replace("\t", " ").split())
-
-
-class QueryContentDataset(Dataset):
-    """Dataset of (query, context, label) tuples used for contrastive pretraining."""
-
-    def __init__(
-        self,
-        samples: Sequence[Tuple[str, str, int]],
-        tokenizer_name: str = DEFAULT_CONTEXT_TOKENIZER,
-        max_length: int = 256,
-    ) -> None:
-        self.samples: List[Tuple[str, str, int]] = list(samples)
-        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
-        self.max_length = max_length
-
-    def __len__(self) -> int:
-        return len(self.samples)
-
-    def __getitem__(self, index: int) -> Tuple[str, str, int]:
-        return self.samples[index]
-
-    def _encode(self, texts: Sequence[str]) -> Tuple[torch.LongTensor, torch.LongTensor]:
-        encoded = self.tokenizer(
-            list(texts),
-            return_tensors="pt",
-            padding=True,
-            truncation=True,
-            max_length=self.max_length,
-        )
-        return encoded["input_ids"].long(), encoded["attention_mask"].long()
-
-    def collate_fn(self, batch: Sequence[Tuple[str, str, int]]):
-        queries = [item[0] for item in batch]
-        contexts = [item[1] for item in batch]
-        labels = torch.tensor([int(item[2]) - 1 for item in batch], dtype=torch.long)
-
-        token_ids_1, attention_mask_1 = self._encode(queries)
-        token_ids_2, attention_mask_2 = self._encode(contexts)
-
-        return {
-            "token_ids_1": token_ids_1,
-            "attention_mask_1": attention_mask_1,
-            "token_ids_2": token_ids_2,
-            "attention_mask_2": attention_mask_2,
-            "labels": labels,
-        }
 
 
 class ToxicityClassificationDataset(Dataset):
@@ -218,7 +169,6 @@ def load_toxic_inference_data(file_path: Path, delimiter: str = "\t") -> List[Tu
 
 
 __all__ = [
-    "QueryContentDataset",
     "ToxicityClassificationDataset",
     "ToxicityRegressionDataset",
     "ToxicityInferenceDataset",
