@@ -30,6 +30,24 @@ Due to Twitter’s current API terms, the raw dataset cannot be redistributed. R
 - Availability:  To request the weights of the model used in this work, please fill out the following [Google form](https://forms.gle/9pb5sr2u4MMyx5X87)
 
 
+
+## Repository Layout
+- `toxicity_inference.py` – CLI entry point for running the DeBERTa-based toxicity regressor on new data.
+- `toxicity_data.py` – Dataset and tokenisation helpers shared by training and inference pipelines.
+
+## Installation
+- Ensure Python 3.10 or newer is available.
+- Create a virtual environment: `python3 -m venv .venv && source .venv/bin/activate`.
+- Install dependencies: `pip install -r requirements.txt`.
+- GPU acceleration is optional; the model automatically falls back to CPU when CUDA is unavailable.
+
+## Usage
+- Prepare a tab-separated input file with an identifier in column 1 and the tweet or comment text in column 2.
+  - Add a third column with the gold toxicity score when running evaluations.
+- Run inference: `python toxicity_inference.py MODEL.pt INPUT.tsv --output predictions.tsv`.
+- Add `--has-labels` to compute MAE and RMSE against reference scores.
+
+
 ## Citation
 ```
 @article{hanley2023twits,
