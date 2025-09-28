@@ -1,0 +1,7 @@
+\section{Communities}
+Having our outlined our techniques for determining the political orientation and toxicity levels of different subreddits, we now turn to understanding how misinformation interacts in subreddits of different political leanings and toxicity levels. 
+
+
+
+\subsection{Exponential Random Graph Models}
+In order to model some of the interactions between online toxicity, misinformation levels, and polarization levels, we utilize exponential random graphs. Exponential Random Graph Modeling (ERGM), is a network models are a form of random graphs that predict connections between different nodes in a given network~\cite{hunter2008ergm}. ERGM models assume that connections are determined by a random variable $p^*$ that is dependent on input variables.  As in Chen \textit{et al.}~\cite{chen2022misleading} and Peng \textit{et al.}~\cite{peng2016follower}. We utilize this modelling as it does it does not assume that its data input is independent; given that we want to model the interactions of polarization, toxicity, and misinformation levels, this relaxed restriction is key. Furthermore, ERGMs can be efficiently computed with random Markov Chain Monte Carlo processes allowing us to model the large amounts of interactions between subreddits and between user in our dataset~\cite{van2019introduction,hunter2008ergm}.

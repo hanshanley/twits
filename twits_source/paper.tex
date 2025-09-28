@@ -1,0 +1,268 @@
+%%
+%% This is file `sample-manuscript.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `manuscript')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-manuscript.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass command.
+\documentclass[nonacm,acmsmall,screen,letterpaper]{acmart}
+
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{amsfonts} 
+\newcommand{\TODO}[1]{\hl{\textbf{TODO:} #1}\xspace}
+\newcommand{\todo}[1]{\TODO{#1}}
+\newcommand{\zd}[1]{\hl{\textbf{ZD:} #1}\xspace}
+\newcommand{\akamai}[1]{\hl{\textbf{Akamai:} #1}\xspace}
+\newcommand{\kt}[1]{\hl{\textbf{KT:} #1}\xspace}
+\newcommand{\mb}[1]{\hl{\textbf{MB:} #1}\xspace}
+\newcommand{\dk}[1]{\hl{\textbf{DK:} #1}\xspace}
+\newcommand{\matt}[1]{\hl{\textbf{Matt:} #1}\xspace}
+\newcommand{\zm}[1]{\hl{\textbf{ZM:} #1}\xspace}
+\newcommand{\ta}[1]{\hl{\textbf{TA:} #1}\xspace}
+\newcommand{\pgk}[1]{\hl{\textbf{pgk:} #1}\xspace}
+\newcommand{\manos}[1]{\hl{\textbf{Manos:} #1}\xspace}
+\newcommand{\TK}{\hl{\bf TK}\xspace}
+\newcommand{\tk}{\TK}
+\newcommand{\etal}{et al.\@\xspace}
+\newcommand{\eg}{e.g.,\@\xspace}
+\newcommand{\ie}{i.e.,\@\xspace}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+%\usepackage{MnSymbol,bbding,pifont}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{pdflscape}
+\usepackage{bbm} 
+
+\newcolumntype{s}{>{\hsize=0.30\hsize}X}
+\usepackage{csquotes}
+
+\newcolumntype{t}{>{\hsize=0.8\hsize}X}
+
+
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmcopyright}
+\copyrightyear{2023}
+\acmYear{2023}
+%\acmDOI{XXXXXXX.XXXXXXX}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+%\acmConference[Conference acronym 'XX]{Make sure to enter the correct
+%  conference title from your rights confirmation emai}{June 03--05,
+%  2018}{Woodstock, NY}
+%\acmPrice{15.00}
+%\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title[Twits, Toxic Tweets, and Tribal Tendencies]{Twits, Toxic Tweets, and Tribal Tendencies: Trends in Politically Polarized Posts on Twitter}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Hans W. A. Hanley}
+\email{hhanley@cs.stanford.edu}
+\affiliation{%
+  \institution{Stanford University}
+  \streetaddress{450 Serra Mall}
+  \city{Stanford}
+  \state{California}
+  \country{USA}
+  \postcode{94305}
+}
+%\author{Anonymous Author}
+
+%\author{Anonymous Author}
+
+\author{Zakir Durumeric}
+\email{zakir@cs.stanford.edu}
+\affiliation{%
+  \institution{Stanford University}
+  \streetaddress{450 Serra Mall}
+  \city{Stanford}
+  \state{California}
+  \country{USA}
+  \postcode{94305}
+}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+
+%\renewcommand{\shortauthors}{Hanley et al.}
+
+
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+Social media platforms are often blamed for exacerbating political polarization and worsening public dialogue. Many claim that hyperpartisan users post pernicious content, slanted to their political views, inciting contentious and toxic conversations. However, what factors are actually associated with increased online toxicity and negative interactions? In this work, we explore the role that partisanship and affective polarization play in contributing to toxicity both on an individual user level and a topic level on Twitter/X. To do this, we train and open-source a DeBERTa-based toxicity detector with a contrastive objective that outperforms the Google Jigsaw Perspective Toxicity detector on the Civil Comments test dataset. Then, after collecting 89.6~million tweets from 43,151~Twitter/X users, we determine how several account-level characteristics, including partisanship along the US left-right political spectrum and account age, predict how often users post toxic content. Fitting a Generalized Additive Model to our data, we find that the diversity of views and the toxicity of the other accounts with which that user engages has a more marked effect on their own toxicity. Namely, toxic comments are correlated with users who engage with a wider array of political views. Performing topic analysis on the toxic content posted by these accounts using the large language model MPNet and a version of the DP-Means clustering algorithm, we find similar behavior across 5,288~individual topics, with users becoming more toxic as they engage with a wider diversity of politically charged topics. %Altogether our results indicate  as both as topic and users engage with a wider range of political views that they themselves become more toxic in nature. 
+
+
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10003120</concept_id>
+<concept_desc>Human-centered computing</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10003120.10003130</concept_id>
+<concept_desc>Human-centered computing~Collaborative and social computing</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10003120.10003130.10011762</concept_id>
+<concept_desc>Human-centered computing~Empirical studies in collaborative and social computing</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+ <concept>
+  <concept_id>10010520.10010553.10010562</concept_id>
+  <concept_desc>Information systems~Web Mining</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+  <concept>
+  <concept_id>10010520.10010575.1001075</concept_id>
+  <concept_desc>Networks~Online social networks</concept_desc>
+  <concept_significance>300</concept_significance>
+ </concept>
+</ccs2012>
+\end{CCSXML}
+\ccsdesc[300]{Human-centered computing}
+\ccsdesc[300]{Human-centered computing~Collaborative and social computing}
+\ccsdesc[500]{Human-centered computing~Empirical studies in collaborative and social computing}
+\ccsdesc[500]{Information systems~Web Mining}
+\ccsdesc[300]{Networks~Online social networks}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{Toxicity, Affective Polarization, Twitter, Online Communities}
+
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\input{intro}
+\input{related}
+\input{methodology}
+\input{polarization.tex}
+\input{topics.tex}
+%\input{submissions}
+%\input{interplay}
+%\input{engagement}
+%
+\input{limitations.tex}
+\input{discussion}
+
+%\input{interactions}
+%\input{twitter}
+%\input{reddit}
+\input{conclusion.tex}
+
+%%
+%% The acknowledgments section is defined using the "acks" environment
+%% (and NOT an unnumbered section). This ensures the proper
+%% identification of the section in the article metadata, and the
+%% consistent spelling of the heading.
+
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+\input{appendix.tex}
+
+
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-manuscript.tex'.

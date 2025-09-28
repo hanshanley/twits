@@ -1,0 +1,58 @@
+\section{Background \& Related Work} In this section, we detail several key definitions utilized within our study, provide background on Twitter, and finally present an overview of existing works that inform our study.
+
+
+\subsection{Terminology}\label{sec:misinformation-defintion}
+We first provide some preliminary definitions of terms that form the basis of this work:
+
+\vspace{2pt}
+\noindent
+\textbf{Online Toxicity and Incivility:} We utilize the Perspective API's definition of online toxicity and incivility: ``\textit{(explicit) rudeness, disrespect or unreasonableness of a comment that is likely to make one leave the
+discussion.}'' given its extensive use in past studies of online toxicity~\cite{hua2020characterizing, saveski2021structure, xia2020exploring, kumar2023understanding}. 
+
+
+\vspace{2pt}
+\noindent
+\textbf{Political Partisanship:}  As in Barbera {et~al.}~\cite{barbera2015birds} and other works~\cite{saveski2022perspective,saveski2022engaging}, we define US political partisanship along a unidimensional axis ranging from left-leaning (\textit{i.e.}, liberal) to right-leaning (\textit{i.e.}, conservative). While this limits our analysis, given the variety of political views within the US, as found by Poole and Rosenthal, most of the variation in US political ideology \emph{is} along a unidimensional axis~\cite{poole2007party}, and this assumption is fairly common in the literature. 
+
+
+
+
+\vspace{2pt}
+\noindent
+\textbf{Affective Polarization:} 
+Affective polarization is the tendency of individuals to distrust and be negative to those of different political beliefs while being positive towards people of similar political views~\cite{druckman2021affective}.
+
+
+
+\subsection{Twitter/X}
+Twitter is a microblogging website where users can post messages known as Tweets: messages with at most 280~characters. Tweets themselves, while often just text,  can also include hyperlinks, videos, and other types of media~\cite{jungherr2014twitter}. 
+Unless made private, tweets are publicly displayed on the Twitter platform, allowing anyone to see or reply to the message~\cite{karami2020twitter}. 
+As of late 2022, Twitter had approximately 238~million active daily users~\cite{Dang2022}. Many Twitter users get their daily news from the Twitter platform~\cite{boukes2019social,tandoc2016most,an2011media}. Despite the ability of anyone to gain and maintain a following on Twitter, several studies have found that political conversations are often dominated and guided by legacy media elites and celebrities~\cite{dagoula2019mapping}. We note that Twitter changed its name to X in mid-2023~\cite{Ivanova2023}, but for simplicity, we still refer to the platform as Twitter throughout this work.
+
+
+
+
+\subsection{Political Partisanship and Polarization Online}
+Various works have explored the role that individual users' political orientations play in interactions online. People, on the Internet and in their everyday interactions, tend to associate with like-minded individuals and Twitter is no exception~\cite{kamin2019social,huckfeldt1995political,halberstam2016homophily,barbera2014social,barbera2015tweeting,quattrociocchi2011opinions}. Several works have found that social media exacerbates this human tendency by creating political echo-chambers~\cite{starbird2018ecosystem}, where users' biases are reconfirmed and reinforced~\cite{conover2011predicting,cinelli2020echo,an2014partisan,bessi2016users}. Sunstein, Garett {et~al.}, and Quattrociocchi {et~al.} all argue that the ``individualized'' experience offered by social media companies comes with the risk of creating ``information cocoons'' and ``echo chambers'' that accelerate polarization~\cite{sunstein2018social,garrett2009echo,quattrociocchi2016echo}. Wojcieszak {et~al.}~\cite{wojcieszak2009online} determine that the majority of political discussions online are between participants who share the same viewpoint. Indeed, while the vast majority of Twitter users do not engage in political discussions, those that do, are often highly politically polarized~\cite{wojcieszak2022most}. 
+
+As found by  Munson et~al.~\cite{munson2010presenting}, while some individuals seek views that are vastly different than their own, many also largely seek only affirming beliefs. Rogowski  et~al.~\cite{rogowski2016ideology} show that high ideological differences between individuals can lead to increased affective polarization; namely, if individuals are exposed to others with widely different beliefs, they increase their tendency to be negative toward those individuals and positive toward those who share their beliefs. Even more so, several recent research papers have found that social media can increase this rate of affective polarization~\cite{suhay2018polarizing,kubin2021role}. Cho et al.~\cite{cho2020search} find that exposure to social media content that attacks political figures can increase affective polarization. Most similar to our work, Bail~et~al.\cite{bail2018exposure} show that exposure to different political beliefs online can increase polarization, particularly for right-leaning individuals. 
+
+In addition to polarization being amplified by social media, other works have found this increased polarization can increase misinformation and toxic behavior~\cite{an2014partisan}. Rains {et~al.}~\cite{rains2017incivility}, for instance, find that high polarization is a major factor in engendering online incivility and toxicity. Imhoff {et~al.}~\cite{imhoff2022conspiracy}, find that political polarization, on both sides of the political spectrum, is associated with beliefs in conspiracy theories. 
+
+\subsection{Online Toxicity}
+
+Online toxicity (\textit{e.g.}, doxing,  cyberstalking, coordinated bullying, and political incivility) plagues social media platforms~\cite{thomas2021sok,cuomo2019gender,kumar2021designing,nobata2016abusive,wulczyn2017ex,chandrasekharan2018internet}. As outlined by Thomas {et~al.}~\cite{thomas2021sok}, online toxicity is just one of type of hate and harassment, which intersects with other negative online behaviors like misinformation and extremism. Brubaker et~al.~\cite{brubaker2021power} find that trolls and bullies online are often motivated by a type of schadenfreude in spewing vitriol at other users. Similarly, Thomas et~al.~\cite{thomas2021sok} find that abusers are often also motivated by political ideology, disaffection, and control~\cite{thomas2021sok}. For example, a Flores-Saviaga~\cite{flores2018mobilizing} studied how users in the r/The\_Donald were motivated to troll and abuse other Reddit users in support of then-Republican candidate Donald Trump in 2016. In addition to harming the target, online toxicity often has many negative downstream effects. Kim {et~al.}, Kwon {et~al.}, and Shen {et~al.}, find, for example, that online toxicity is a self-reinforcing behavior, with negative conversations increasing observers' tendency to also engage in incivility~\cite{kim2019incivility,kwon2017offensive,shen2020viral}. Other works have found that marginalized groups often receive disproportionate amounts of toxicity online~\cite{relia2019race,thomas2021sok,chess2015conspiracy}. Pew Research, for instance, found that Black adults reported higher incidences of name-calling while women were more likely to experience sexual harassment. While toxicity can take many forms, in this work, we largely focus on toxic comments on Twitter. 
+
+
+\subsection{Detecting Online Toxicity }
+Several works measure online toxicity using the Google Jigsaw Perspective API~\cite{perspectiveapi}. Saveski {et~al.}~\cite{saveski2021structure}, for example, utilize the Perspective API and find that many of the idiosyncrasies of particular Twitter conversations can lead to tweets with toxic language. Similarly, Habib {et~al.}~\cite{habib2022proactive}, utilize Perspective to identify opportunities for proactive interventions on Reddit before large escalations. Kumar {et~al.}~\cite{kumar2021designing} finally determine how different types of users interact with Reddit comments labeled by the Perspective API, finding that different social groups (\textit{e.g.}, women, racial minorities), often have different experiences when encountering the same comments. 
+
+While the Perspective API has been utilized in a host of different recent studies~\cite{kumar2021designing,saveski2021structure,jain2018adversarial,rieder2021fabrics} likely because of its widespread adoption by large companies like Google, Disqus, Reddit~\cite{perspectiveapi}, several other works have sought to either improve on it utilizing newer large language models or non-machine-learning approaches. Grondahle et al.~\cite{grondahl2018all} show that adversarial training can make models robust to adversarial attacks like homoglyphs. Chandrasekharan et~al.~\cite{chandrasekharan2019crossmod} propose a cross-community learning strategy to build a model to help moderators on Reddit detect new context content. Lees et~al.~\cite{lees2022new} utilize a character-based transformer to build a state-of-the-art multilingual toxicity classifier that incorporates a learnable tokenizer allowing it to be robust to domains different from its training data. Kumar et~al. test recent large language models like GPT-4, Llama3, and Google Gemini, finding that they can account for ecosystems' norms and values when performing moderation~\cite{kumar2023understanding}. In contrast to these machine-learning approaches, Jhaver et~al.~\cite{jhaver2018online} illustrate the usefulness of the blocklists in better user experiences online. Finally, Lai et~al.~\cite{lai2022human} propose human-AI collaboration in detecting and removing content. 
+
+
+\subsection{Present Work}
+Several works have studied how political polarization and online toxicity interact in particular political environments~\cite{cinelli2021dynamics,tucker2018social,bail2018exposure}. For example, Chen {et~al.}~\cite{chen2022misleading} utilize network analysis to find that misleading online videos lead to increased online incivility. Conversely, Rajadesingan {et~al.}~\cite{rajadesingan2021political}, find that political discussions in non-overtly political subreddits often lead to less toxic conversational outcomes. Most similar to our work, De~Francisci Morales {et~al.}~\cite{de2021no} find that the interaction of individuals of different political orientations increased negative conversational outcomes. In this work, however, rather than examining political polarization within a particular community or across one individual topic, we instead seek to understand across thousands of politically engaged users across the political spectrum, what are the most prominent characteristics that correspond with increased toxicity. Subsequently, our LLM-based approach, which identifies larger topic conversations across the tweets of politically engaged Twitter/X users and multiple Twitter threads~\cite{wieringa2018political, quercia2012social,arslan2022understanding}, then analyzes what contributes to polarized and toxic topics across political Twitter. Unlike previous approaches, which have largely relied on previously made hashtag lists, or were limited to a set of particular topics~\cite{cinelli2020echo} when analyzing the spread of topics, our approach is largely agnostic to these features, allowing us to analyze how various user and structural-level features contribute to toxicity across the Twitter platform. This thus approach enables us to study in a generalizable fashion how partisanship, and polarization, along with what characteristics contribute to negative and toxic outcomes across tweets about particular subjects of varying political salience.
+
+
+
+

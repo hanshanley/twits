@@ -1,0 +1,33 @@
+\section{Introduction}
+\vspace{1pt}
+\noindent\fbox{%
+    \parbox{.99\columnwidth}{%
+        \textbf{Content Warning}: This paper studies online toxicity. When
+        necessary for clarity, this paper quotes user content
+        that contains profane, politically inflammatory, and hateful content.
+    }%
+}
+\vspace{1pt}
+
+\noindent
+Over the past decade, political polarization within the United States has increased substantially~\cite{hong2016political,chen2022misleading,gaughan2016illiberal,gervais2015incivility,borah2013interactions,goovaerts2020uncivil}. Many people attribute the increase in division to social media, arguing that social media creates toxic political echo chambers where users become more politically polarized, reinforcing their biases~\cite{sunstein2018social,wojcieszak2022most}. In several documented cases, political polarization and associated toxicity have negatively impacted platforms, online communities, and users, sometimes leading to users leaving platforms altogether~\cite{pew-2017}. While many studies have investigated the role that toxicity and political polarization have had on the health of online communities ~\cite{tucker2017liberation,tucker2018social,torres2022manufacture,persily20172016,gron2020party,saveski2021structure}, there has been little work that investigates the role of toxicity, partisanship, and affective polarization (\textit{i.e.}, the tendency to be negative to those with different political views and positive to those with similar political views) between individuals and at the topic-level, the common means by which conversations take place on Twitter/X across multiple Twitter threads~\cite{wieringa2018political, quercia2012social,arslan2022understanding}. To fully understand the intertwined relationship between toxicity, partisanship, and polarization, at the user and topic-level in this work, we investigate:
+
+\begin{enumerate}
+    \item \textit{What are the relationships between partisanship, political polarization, and the tendency for politically engaged users to post toxic content?}
+    \item \textit{How do the characteristics of users, including their partisanship, predict the toxicity of topics on Twitter/X?} 
+\end{enumerate}
+%What topics and conversations on Twitter/X engendered the most toxicity in 2022? 
+
+To answer these questions, we collect 89.6M~tweets from 43.1K~accounts throughout 2022. From these tweets, we measure the number of toxic tweets and toxicity of each user by designing and deploying our own DeBERTa-based~\cite{he2022debertav3} toxicity detection model, finding that it outperforms Google Jigsaw API~\cite{perspectiveapi}, the gold-standard out-of-box classifier for identifying uncivil and toxic language (\textit{e.g.}, insults, sexual harassment, and threats of violence~\cite{thomas2021sok}). Then, calculating each user's approximate political orientation using Correspondence Analysis~\cite{barbera2015tweeting} and performing fine-grained topic analysis using a large language model, we subsequently determine the interconnection between toxicity and political polarization at a user and topic-level.
+
+\vspace{2pt}\noindent
+\noindent
+\textbf{RQ1: User-Level Factors of Toxicity and the Role of Political Polarization.} We first determine, using a linear regression model, some of the most significant features that predict the toxicity of content posted by individual Twitter accounts. We find that the most important feature that predicts an individual account's toxicity is the toxicity of the other accounts with which the user interacts. Namely, as users interact with other users who regularly tweet in a toxic manner, they themselves are more likely to tweet toxic content. We further find that while the position that a user falls on the political spectrum \emph{does not} have much bearing on the toxicity of their messages, the more that a given user interacts with users of different political orientations, the more likely their posts are to be toxic.  
+
+\vspace{2pt}\noindent
+\noindent
+\textbf{RQ2: Toxicity and Political Polarization in Toxic Topics.} Having observed that users who interact with users of differing political views are more likely to be toxic, we examine this dynamic at a topic-level. After identifying 5.5M~English-language toxic tweets, we perform topic analysis using a fine-tuned version of the large language model MPNet and the DP-Means clustering algorithm~\cite{hanley2023partial}. Examining these topic clusters, we find that, in aggregate, the political orientation of users tweeting about a topic does not have a large effect on the topic's overall toxicity; rather we find that the effect of the political orientation of the users tweeting about particular topics varied widely. Examining factors that predict each topic cluster's overall toxicity, we find, as largely expected, that high-toxicity topics often involve high-toxicity users.  We further find that as individuals participate in a wider range of political topics the toxicity of their tweets increases. Namely, we identify at the topic-level (as on a user-level), a strong tribal tendency/affective polarization, with accounts acting negatively toward accounts of differing views. 
+
+\vspace{3pt}
+\noindent
+Altogether, our work illustrates that, across a diverse set of users and topics, as engagement with toxic content and with a wider range of political views increases, so does average toxicity. In addition to open-sourcing a new toxicity classifier that achieves better accuracy than the Perspective API on the Civil Comments dataset, our work, one of the first to perform this analysis on a large-scale dataset of politically engaged users and across multi-thread topics not directly chosen by specific hashtags, illustrates how political polarization can negatively affect online communities and lead to increased divisiveness, regardless of the topic. We hope that this work helps inform future research into the role of polarization and toxic content in negatively affecting the health of online communities and intra-platform user interactions. 

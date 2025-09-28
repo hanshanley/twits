@@ -1,0 +1,1077 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{128}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Akaike(2011)]%
+        {akaike2011akaike}
+\bibfield{author}{\bibinfo{person}{Hirotugu Akaike}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Akaike’s information criterion}.
+\newblock \bibinfo{journal}{\emph{International encyclopedia of statistical science}} (\bibinfo{year}{2011}), \bibinfo{pages}{25--25}.
+\newblock
+
+
+\bibitem[Altmann et~al\mbox{.}(2010)]%
+        {altmann2010permutation}
+\bibfield{author}{\bibinfo{person}{Andr{\'e} Altmann}, \bibinfo{person}{Laura Tolo{\c{s}}i}, \bibinfo{person}{Oliver Sander}, {and} \bibinfo{person}{Thomas Lengauer}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Permutation importance: a corrected feature importance measure}.
+\newblock \bibinfo{journal}{\emph{Bioinformatics}} \bibinfo{volume}{26}, \bibinfo{number}{10} (\bibinfo{year}{2010}), \bibinfo{pages}{1340--1347}.
+\newblock
+
+
+\bibitem[An et~al\mbox{.}(2011)]%
+        {an2011media}
+\bibfield{author}{\bibinfo{person}{Jisun An}, \bibinfo{person}{Meeyoung Cha}, \bibinfo{person}{Krishna Gummadi}, {and} \bibinfo{person}{Jon Crowcroft}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Media landscape in Twitter: A world of new conventions and political diversity}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{5}. \bibinfo{pages}{18--25}.
+\newblock
+
+
+\bibitem[An et~al\mbox{.}(2014)]%
+        {an2014partisan}
+\bibfield{author}{\bibinfo{person}{Jisun An}, \bibinfo{person}{Daniele Quercia}, {and} \bibinfo{person}{Jon Crowcroft}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Partisan sharing: Facebook evidence and societal consequences}. In \bibinfo{booktitle}{\emph{Proceedings of the second ACM conference on Online social networks}}. \bibinfo{pages}{13--24}.
+\newblock
+
+
+\bibitem[Arslan et~al\mbox{.}(2022)]%
+        {arslan2022understanding}
+\bibfield{author}{\bibinfo{person}{Okan Arslan}, \bibinfo{person}{Wanli Xing}, \bibinfo{person}{Fethi~A Inan}, {and} \bibinfo{person}{Hanxiang Du}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Understanding topic duration in Twitter learning communities using data mining}.
+\newblock \bibinfo{journal}{\emph{Journal of Computer Assisted Learning}} \bibinfo{volume}{38}, \bibinfo{number}{2} (\bibinfo{year}{2022}), \bibinfo{pages}{513--525}.
+\newblock
+
+
+\bibitem[Bail et~al\mbox{.}(2018)]%
+        {bail2018exposure}
+\bibfield{author}{\bibinfo{person}{Christopher~A Bail}, \bibinfo{person}{Lisa~P Argyle}, \bibinfo{person}{Taylor~W Brown}, \bibinfo{person}{John~P Bumpus}, \bibinfo{person}{Haohan Chen}, \bibinfo{person}{MB~Fallin Hunzaker}, \bibinfo{person}{Jaemin Lee}, \bibinfo{person}{Marcus Mann}, \bibinfo{person}{Friedolin Merhout}, {and} \bibinfo{person}{Alexander Volfovsky}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Exposure to opposing views on social media can increase political polarization}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of Sciences}} \bibinfo{volume}{115}, \bibinfo{number}{37} (\bibinfo{year}{2018}), \bibinfo{pages}{9216--9221}.
+\newblock
+
+
+\bibitem[Barber{\'a}(2014)]%
+        {barbera2014social}
+\bibfield{author}{\bibinfo{person}{Pablo Barber{\'a}}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{How social media reduces mass political polarization. Evidence from Germany, Spain, and the US}.
+\newblock \bibinfo{journal}{\emph{Job Market Paper, New York University}}  \bibinfo{volume}{46} (\bibinfo{year}{2014}), \bibinfo{pages}{1--46}.
+\newblock
+
+
+\bibitem[Barber{\'a}(2015)]%
+        {barbera2015birds}
+\bibfield{author}{\bibinfo{person}{Pablo Barber{\'a}}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Birds of the same feather tweet together: Bayesian ideal point estimation using Twitter data}.
+\newblock \bibinfo{journal}{\emph{Political analysis}} \bibinfo{volume}{23}, \bibinfo{number}{1} (\bibinfo{year}{2015}), \bibinfo{pages}{76--91}.
+\newblock
+
+
+\bibitem[Barber{\'a} et~al\mbox{.}(2015)]%
+        {barbera2015tweeting}
+\bibfield{author}{\bibinfo{person}{Pablo Barber{\'a}}, \bibinfo{person}{John~T Jost}, \bibinfo{person}{Jonathan Nagler}, \bibinfo{person}{Joshua~A Tucker}, {and} \bibinfo{person}{Richard Bonneau}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Tweeting from left to right: Is online political communication more than an echo chamber?}
+\newblock \bibinfo{journal}{\emph{Psychological science}} \bibinfo{volume}{26}, \bibinfo{number}{10} (\bibinfo{year}{2015}), \bibinfo{pages}{1531--1542}.
+\newblock
+
+
+\bibitem[Bessi et~al\mbox{.}(2016)]%
+        {bessi2016users}
+\bibfield{author}{\bibinfo{person}{Alessandro Bessi}, \bibinfo{person}{Fabiana Zollo}, \bibinfo{person}{Michela Del~Vicario}, \bibinfo{person}{Michelangelo Puliga}, \bibinfo{person}{Antonio Scala}, \bibinfo{person}{Guido Caldarelli}, \bibinfo{person}{Brian Uzzi}, {and} \bibinfo{person}{Walter Quattrociocchi}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Users polarization on Facebook and Youtube}.
+\newblock \bibinfo{journal}{\emph{PloS one}} \bibinfo{volume}{11}, \bibinfo{number}{8} (\bibinfo{year}{2016}), \bibinfo{pages}{e0159641}.
+\newblock
+
+
+\bibitem[Borah(2013)]%
+        {borah2013interactions}
+\bibfield{author}{\bibinfo{person}{Porismita Borah}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Interactions of news frames and incivility in the political blogosphere: Examining perceptual outcomes}.
+\newblock \bibinfo{journal}{\emph{Political Communication}} \bibinfo{volume}{30}, \bibinfo{number}{3} (\bibinfo{year}{2013}), \bibinfo{pages}{456--473}.
+\newblock
+
+
+\bibitem[Boukes(2019)]%
+        {boukes2019social}
+\bibfield{author}{\bibinfo{person}{Mark Boukes}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Social network sites and acquiring current affairs knowledge: The impact of Twitter and Facebook usage on learning about the news}.
+\newblock \bibinfo{journal}{\emph{Journal of Information Technology \& Politics}} \bibinfo{volume}{16}, \bibinfo{number}{1} (\bibinfo{year}{2019}), \bibinfo{pages}{36--51}.
+\newblock
+
+
+\bibitem[Bouma(2009)]%
+        {bouma2009normalized}
+\bibfield{author}{\bibinfo{person}{Gerlof Bouma}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Normalized (pointwise) mutual information in collocation extraction}.
+\newblock \bibinfo{journal}{\emph{Proceedings of GSCL}} (\bibinfo{year}{2009}).
+\newblock
+
+
+\bibitem[Brubaker et~al\mbox{.}(2021)]%
+        {brubaker2021power}
+\bibfield{author}{\bibinfo{person}{Pamela~Jo Brubaker}, \bibinfo{person}{Daniel Montez}, {and} \bibinfo{person}{Scott~Haden Church}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The power of schadenfreude: Predicting behaviors and perceptions of trolling among Reddit users}.
+\newblock \bibinfo{journal}{\emph{Social Media+ Society}} \bibinfo{volume}{7}, \bibinfo{number}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{20563051211021382}.
+\newblock
+
+
+\bibitem[Chandrasekharan et~al\mbox{.}(2019)]%
+        {chandrasekharan2019crossmod}
+\bibfield{author}{\bibinfo{person}{Eshwar Chandrasekharan}, \bibinfo{person}{Chaitrali Gandhi}, \bibinfo{person}{Matthew~Wortley Mustelier}, {and} \bibinfo{person}{Eric Gilbert}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Crossmod: A cross-community learning-based system to assist reddit moderators}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on human-computer interaction}} \bibinfo{volume}{3}, \bibinfo{number}{CSCW} (\bibinfo{year}{2019}), \bibinfo{pages}{1--30}.
+\newblock
+
+
+\bibitem[Chandrasekharan et~al\mbox{.}(2018)]%
+        {chandrasekharan2018internet}
+\bibfield{author}{\bibinfo{person}{Eshwar Chandrasekharan}, \bibinfo{person}{Mattia Samory}, \bibinfo{person}{Shagun Jhaver}, \bibinfo{person}{Hunter Charvat}, \bibinfo{person}{Amy Bruckman}, \bibinfo{person}{Cliff Lampe}, \bibinfo{person}{Jacob Eisenstein}, {and} \bibinfo{person}{Eric Gilbert}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The Internet's hidden rules: An empirical study of Reddit norm violations at micro, meso, and macro scales}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer Interaction}} \bibinfo{volume}{2}, \bibinfo{number}{CSCW} (\bibinfo{year}{2018}), \bibinfo{pages}{1--25}.
+\newblock
+
+
+\bibitem[Chatzakou et~al\mbox{.}(2017)]%
+        {chatzakou2017measuring}
+\bibfield{author}{\bibinfo{person}{Despoina Chatzakou}, \bibinfo{person}{Nicolas Kourtellis}, \bibinfo{person}{Jeremy Blackburn}, \bibinfo{person}{Emiliano De~Cristofaro}, \bibinfo{person}{Gianluca Stringhini}, {and} \bibinfo{person}{Athena Vakali}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Measuring\# GamerGate: A tale of hate, sexism, and bullying}. In \bibinfo{booktitle}{\emph{Proceedings of the 26th international conference on world wide web companion}}. \bibinfo{pages}{1285--1290}.
+\newblock
+
+
+\bibitem[Chen and Wang(2022)]%
+        {chen2022misleading}
+\bibfield{author}{\bibinfo{person}{Yingying Chen} {and} \bibinfo{person}{Luping Wang}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Misleading political advertising fuels incivility online: A social network analysis of 2020 US presidential election campaign video comments on YouTube}.
+\newblock \bibinfo{journal}{\emph{Computers in Human Behavior}}  \bibinfo{volume}{131} (\bibinfo{year}{2022}), \bibinfo{pages}{107202}.
+\newblock
+
+
+\bibitem[Chess and Shaw(2015)]%
+        {chess2015conspiracy}
+\bibfield{author}{\bibinfo{person}{Shira Chess} {and} \bibinfo{person}{Adrienne Shaw}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{A conspiracy of fishes, or, how we learned to stop worrying about\# GamerGate and embrace hegemonic masculinity}.
+\newblock \bibinfo{journal}{\emph{Journal of Broadcasting \& Electronic Media}} \bibinfo{volume}{59}, \bibinfo{number}{1} (\bibinfo{year}{2015}), \bibinfo{pages}{208--220}.
+\newblock
+
+
+\bibitem[Cho et~al\mbox{.}(2020)]%
+        {cho2020search}
+\bibfield{author}{\bibinfo{person}{Jaeho Cho}, \bibinfo{person}{Saifuddin Ahmed}, \bibinfo{person}{Martin Hilbert}, \bibinfo{person}{Billy Liu}, {and} \bibinfo{person}{Jonathan Luu}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Do search algorithms endanger democracy? An experimental investigation of algorithm effects on political polarization}.
+\newblock \bibinfo{journal}{\emph{Journal of Broadcasting \& Electronic Media}} \bibinfo{volume}{64}, \bibinfo{number}{2} (\bibinfo{year}{2020}), \bibinfo{pages}{150--172}.
+\newblock
+
+
+\bibitem[Cinelli et~al\mbox{.}(2021a)]%
+        {cinelli2020echo}
+\bibfield{author}{\bibinfo{person}{Matteo Cinelli}, \bibinfo{person}{Gianmarco De~Francisci~Morales}, \bibinfo{person}{Alessandro Galeazzi}, \bibinfo{person}{Walter Quattrociocchi}, {and} \bibinfo{person}{Michele Starnini}.} \bibinfo{year}{2021}\natexlab{a}.
+\newblock \showarticletitle{The echo chamber effect on social media}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of Sciences}} \bibinfo{volume}{118}, \bibinfo{number}{9} (\bibinfo{year}{2021}), \bibinfo{pages}{e2023301118}.
+\newblock
+
+
+\bibitem[Cinelli et~al\mbox{.}(2021b)]%
+        {cinelli2021dynamics}
+\bibfield{author}{\bibinfo{person}{Matteo Cinelli}, \bibinfo{person}{Andra{\v{z}} Pelicon}, \bibinfo{person}{Igor Mozeti{\v{c}}}, \bibinfo{person}{Walter Quattrociocchi}, \bibinfo{person}{Petra~Kralj Novak}, {and} \bibinfo{person}{Fabiana Zollo}.} \bibinfo{year}{2021}\natexlab{b}.
+\newblock \showarticletitle{Dynamics of online hate and misinformation}.
+\newblock \bibinfo{journal}{\emph{Scientific reports}} \bibinfo{volume}{11}, \bibinfo{number}{1} (\bibinfo{year}{2021}), \bibinfo{pages}{1--12}.
+\newblock
+
+
+\bibitem[Claire~Donnelly(2022)]%
+        {Donnelly2022}
+\bibfield{author}{\bibinfo{person}{Meghna~Chakrabarti Claire~Donnelly, Jonathan~Chang}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Understanding Marjorie Taylor Greene's influence in a Republican-controlled House}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.wbur.org/onpoint/2022/12/16/understanding-marjorie-taylor-greenes-influence-in-a-republican-controlled-house}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Conover et~al\mbox{.}(2011)]%
+        {conover2011predicting}
+\bibfield{author}{\bibinfo{person}{Michael~D Conover}, \bibinfo{person}{Bruno Gon{\c{c}}alves}, \bibinfo{person}{Jacob Ratkiewicz}, \bibinfo{person}{Alessandro Flammini}, {and} \bibinfo{person}{Filippo Menczer}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Predicting the political alignment of twitter users}. In \bibinfo{booktitle}{\emph{2011 IEEE third international conference on privacy, security, risk and trust and 2011 IEEE third international conference on social computing}}. IEEE, \bibinfo{pages}{192--199}.
+\newblock
+
+
+\bibitem[Cuomo and Dolci(2019)]%
+        {cuomo2019gender}
+\bibfield{author}{\bibinfo{person}{Dana Cuomo} {and} \bibinfo{person}{Natalie Dolci}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Gender-based violence and technology-enabled coercive control in Seattle: Challenges \& Opportunities}.
+\newblock \bibinfo{journal}{\emph{TECC Whitepaper Series}} (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Dagoula(2019)]%
+        {dagoula2019mapping}
+\bibfield{author}{\bibinfo{person}{Chrysi Dagoula}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Mapping political discussions on Twitter: Where the elites remain elites}.
+\newblock \bibinfo{journal}{\emph{Media and Communication}} \bibinfo{volume}{7}, \bibinfo{number}{1} (\bibinfo{year}{2019}), \bibinfo{pages}{225--234}.
+\newblock
+
+
+\bibitem[Dang et~al\mbox{.}(2022)]%
+        {Dang2022}
+\bibfield{author}{\bibinfo{person}{Sheila Dang}, \bibinfo{person}{Kenneth Li}, {and} \bibinfo{person}{Matthew Lewis}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Exclusive: Twitter is losing its most active users, internal documents show | Reuters}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.reuters.com/technology/exclusive-where-did-tweeters-go-twitter-is-losing-its-most-active-users-internal-2022-10-25/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[De~Francisci~Morales et~al\mbox{.}(2021)]%
+        {de2021no}
+\bibfield{author}{\bibinfo{person}{Gianmarco De~Francisci~Morales}, \bibinfo{person}{Corrado Monti}, {and} \bibinfo{person}{Michele Starnini}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{No echo in the chambers of political interactions on Reddit}.
+\newblock \bibinfo{journal}{\emph{Scientific reports}} \bibinfo{volume}{11}, \bibinfo{number}{1} (\bibinfo{year}{2021}), \bibinfo{pages}{1--12}.
+\newblock
+
+
+\bibitem[Demaris(1992)]%
+        {demaris1992logit}
+\bibfield{author}{\bibinfo{person}{Alfred Demaris}.} \bibinfo{year}{1992}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Logit modeling: Practical applications}}.
+\newblock Number~86. \bibinfo{publisher}{Sage}.
+\newblock
+
+
+\bibitem[Dinari and Freifeld(2022)]%
+        {dinari2022revisiting}
+\bibfield{author}{\bibinfo{person}{Or Dinari} {and} \bibinfo{person}{Oren Freifeld}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Revisiting DP-Means: Fast Scalable Algorithms via Parallelism and Delayed Cluster Creation}. In \bibinfo{booktitle}{\emph{The 38th Conference on Uncertainty in Artificial Intelligence}}.
+\newblock
+
+
+\bibitem[Druckman et~al\mbox{.}(2021)]%
+        {druckman2021affective}
+\bibfield{author}{\bibinfo{person}{James~N Druckman}, \bibinfo{person}{Samara Klar}, \bibinfo{person}{Yanna Krupnikov}, \bibinfo{person}{Matthew Levendusky}, {and} \bibinfo{person}{John~Barry Ryan}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Affective polarization, local contexts and public opinion in America}.
+\newblock \bibinfo{journal}{\emph{Nature human behaviour}} \bibinfo{volume}{5}, \bibinfo{number}{1} (\bibinfo{year}{2021}), \bibinfo{pages}{28--38}.
+\newblock
+
+
+\bibitem[Duggan(2017)]%
+        {pew-2017}
+\bibfield{author}{\bibinfo{person}{Maeve Duggan}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{Online Harassment 2017}.
+\newblock \bibinfo{howpublished}{\url{https://www.pewresearch.org/internet/2017/07/11/online-harassment-2017/}}.
+\newblock
+
+
+\bibitem[Efstratiou et~al\mbox{.}(2023)]%
+        {efstratiou2022non}
+\bibfield{author}{\bibinfo{person}{Alexandros Efstratiou}, \bibinfo{person}{Jeremy Blackburn}, \bibinfo{person}{Tristan Caulfield}, \bibinfo{person}{Gianluca Stringhini}, \bibinfo{person}{Savvas Zannettou}, {and} \bibinfo{person}{Emiliano De~Cristofaro}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Non-polar opposites: analyzing the relationship between echo chambers and hostile intergroup interactions on Reddit}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{17}. \bibinfo{pages}{197--208}.
+\newblock
+
+
+\bibitem[Flores-Saviaga et~al\mbox{.}(2018)]%
+        {flores2018mobilizing}
+\bibfield{author}{\bibinfo{person}{Claudia Flores-Saviaga}, \bibinfo{person}{Brian Keegan}, {and} \bibinfo{person}{Saiph Savage}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Mobilizing the trump train: Understanding collective action in a political trolling community}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{12}.
+\newblock
+
+
+\bibitem[Fung(2023)]%
+        {Fung2023}
+\bibfield{author}{\bibinfo{person}{Brian Fung}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{How Elon Musk transformed Twitter's blue check from status symbol into a badge of shame | CNN Business}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.cnn.com/2023/04/24/tech/musk-twitter-blue-check-mark/index.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Gao et~al\mbox{.}(2021)]%
+        {gao-etal-2021-simcse}
+\bibfield{author}{\bibinfo{person}{Tianyu Gao}, \bibinfo{person}{Xingcheng Yao}, {and} \bibinfo{person}{Danqi Chen}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{S}im{CSE}: Simple Contrastive Learning of Sentence Embeddings}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing}}, \bibfield{editor}{\bibinfo{person}{Marie-Francine Moens}, \bibinfo{person}{Xuanjing Huang}, \bibinfo{person}{Lucia Specia}, {and} \bibinfo{person}{Scott Wen-tau Yih}} (Eds.). \bibinfo{publisher}{Association for Computational Linguistics}, \bibinfo{address}{Online and Punta Cana, Dominican Republic}, \bibinfo{pages}{6894--6910}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2021.emnlp-main.552}
+\showDOI{\tempurl}
+
+
+\bibitem[Garrett(2009)]%
+        {garrett2009echo}
+\bibfield{author}{\bibinfo{person}{R~Kelly Garrett}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Echo chambers online?: Politically motivated selective exposure among Internet news users}.
+\newblock \bibinfo{journal}{\emph{Journal of computer-mediated communication}} \bibinfo{volume}{14}, \bibinfo{number}{2} (\bibinfo{year}{2009}), \bibinfo{pages}{265--285}.
+\newblock
+
+
+\bibitem[Gaughan(2016)]%
+        {gaughan2016illiberal}
+\bibfield{author}{\bibinfo{person}{Anthony~J Gaughan}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Illiberal democracy: The toxic mix of fake news, hyperpolarization, and partisan election administration}.
+\newblock \bibinfo{journal}{\emph{Duke J. Const. L. \& Pub. Pol'y}}  \bibinfo{volume}{12} (\bibinfo{year}{2016}), \bibinfo{pages}{57}.
+\newblock
+
+
+\bibitem[Gervais(2015)]%
+        {gervais2015incivility}
+\bibfield{author}{\bibinfo{person}{Bryan~T Gervais}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Incivility online: Affective and behavioral reactions to uncivil political posts in a web-based experiment}.
+\newblock \bibinfo{journal}{\emph{Journal of Information Technology \& Politics}} \bibinfo{volume}{12}, \bibinfo{number}{2} (\bibinfo{year}{2015}), \bibinfo{pages}{167--185}.
+\newblock
+
+
+\bibitem[Goovaerts and Marien(2020)]%
+        {goovaerts2020uncivil}
+\bibfield{author}{\bibinfo{person}{Ine Goovaerts} {and} \bibinfo{person}{Sofie Marien}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Uncivil communication and simplistic argumentation: Decreasing political trust, increasing persuasive power?}
+\newblock \bibinfo{journal}{\emph{Political Communication}} \bibinfo{volume}{37}, \bibinfo{number}{6} (\bibinfo{year}{2020}), \bibinfo{pages}{768--788}.
+\newblock
+
+
+\bibitem[Greenacre(2010)]%
+        {greenacre2010correspondence}
+\bibfield{author}{\bibinfo{person}{Michael~J Greenacre}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Correspondence analysis}.
+\newblock \bibinfo{journal}{\emph{Wiley Interdisciplinary Reviews: Computational Statistics}} \bibinfo{volume}{2}, \bibinfo{number}{5} (\bibinfo{year}{2010}), \bibinfo{pages}{613--619}.
+\newblock
+
+
+\bibitem[Gr{\"o}n and Nelimarkka(2020)]%
+        {gron2020party}
+\bibfield{author}{\bibinfo{person}{Kirsikka Gr{\"o}n} {and} \bibinfo{person}{Matti Nelimarkka}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Party Politics, Values and the Design of Social Media Services: Implications of political elites' values and ideologies to mitigating of political polarisation through design}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on human-computer interaction}} \bibinfo{volume}{4}, \bibinfo{number}{CSCW2} (\bibinfo{year}{2020}), \bibinfo{pages}{1--29}.
+\newblock
+
+
+\bibitem[Gr{\"o}ndahl et~al\mbox{.}(2018)]%
+        {grondahl2018all}
+\bibfield{author}{\bibinfo{person}{Tommi Gr{\"o}ndahl}, \bibinfo{person}{Luca Pajola}, \bibinfo{person}{Mika Juuti}, \bibinfo{person}{Mauro Conti}, {and} \bibinfo{person}{N Asokan}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{All you need is" love" evading hate speech detection}. In \bibinfo{booktitle}{\emph{Proceedings of the 11th ACM workshop on artificial intelligence and security}}. \bibinfo{pages}{2--12}.
+\newblock
+
+
+\bibitem[Gr{\"o}nlund et~al\mbox{.}(2015)]%
+        {gronlund2015does}
+\bibfield{author}{\bibinfo{person}{Kimmo Gr{\"o}nlund}, \bibinfo{person}{Kaisa Herne}, {and} \bibinfo{person}{Maija Set{\"a}l{\"a}}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Does enclave deliberation polarize opinions?}
+\newblock \bibinfo{journal}{\emph{Political Behavior}}  \bibinfo{volume}{37} (\bibinfo{year}{2015}), \bibinfo{pages}{995--1020}.
+\newblock
+
+
+\bibitem[Grootendorst(2022)]%
+        {grootendorst2020bertopic}
+\bibfield{author}{\bibinfo{person}{Maarten Grootendorst}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{BERTopic: Neural topic modeling with a class-based TF-IDF procedure}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2203.05794}} (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Guess et~al\mbox{.}(2018)]%
+        {guess2018avoiding}
+\bibfield{author}{\bibinfo{person}{Andrew Guess}, \bibinfo{person}{Brendan Nyhan}, \bibinfo{person}{Benjamin Lyons}, {and} \bibinfo{person}{Jason Reifler}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Avoiding the echo chamber about echo chambers}.
+\newblock \bibinfo{journal}{\emph{Knight Foundation}} \bibinfo{volume}{2}, \bibinfo{number}{1} (\bibinfo{year}{2018}), \bibinfo{pages}{1--25}.
+\newblock
+
+
+\bibitem[Habib et~al\mbox{.}(2022)]%
+        {habib2022proactive}
+\bibfield{author}{\bibinfo{person}{Hussam Habib}, \bibinfo{person}{Maaz~Bin Musa}, \bibinfo{person}{Muhammad~Fareed Zaffar}, {and} \bibinfo{person}{Rishab Nithyanand}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Are Proactive Interventions for Reddit Communities Feasible?}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{16}. \bibinfo{pages}{264--274}.
+\newblock
+
+
+\bibitem[Halberstam and Knight(2016)]%
+        {halberstam2016homophily}
+\bibfield{author}{\bibinfo{person}{Yosh Halberstam} {and} \bibinfo{person}{Brian Knight}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Homophily, group size, and the diffusion of political information in social networks: Evidence from Twitter}.
+\newblock \bibinfo{journal}{\emph{Journal of public economics}}  \bibinfo{volume}{143} (\bibinfo{year}{2016}), \bibinfo{pages}{73--88}.
+\newblock
+
+
+\bibitem[Hanley et~al\mbox{.}(2024)]%
+        {hhanleyspecious2024}
+\bibfield{author}{\bibinfo{person}{H. Hanley}, \bibinfo{person}{D. Kumar}, {and} \bibinfo{person}{Z. Durumeric}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Specious Sites: Tracking the Spread and Sway of Spurious News Stories at Scale}. In \bibinfo{booktitle}{\emph{2024 IEEE Symposium on Security and Privacy (SP)}}. \bibinfo{publisher}{IEEE Computer Society}, \bibinfo{address}{Los Alamitos, CA, USA}, \bibinfo{pages}{180--180}.
+\newblock
+\showISSN{2375-1207}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/SP54263.2024.00171}
+\showDOI{\tempurl}
+
+
+\bibitem[Hanley and Durumeric(2023)]%
+        {hanley2023sub}
+\bibfield{author}{\bibinfo{person}{Hans~WA Hanley} {and} \bibinfo{person}{Zakir Durumeric}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Sub-Standards and Mal-Practices: Misinformation's Role in Insular, Polarized, and Toxic Interactions}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2301.11486}} (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Hanley and Durumeric(2024)]%
+        {hanley2023partial}
+\bibfield{author}{\bibinfo{person}{Hans~WA Hanley} {and} \bibinfo{person}{Zakir Durumeric}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Partial mobilization: Tracking multilingual information flows amongst russian media outlets and telegram}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{18}. \bibinfo{pages}{528--541}.
+\newblock
+
+
+\bibitem[Hanley et~al\mbox{.}(2023)]%
+        {hanley2022happenstance}
+\bibfield{author}{\bibinfo{person}{Hans~WA Hanley}, \bibinfo{person}{Deepak Kumar}, {and} \bibinfo{person}{Zakir Durumeric}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Happenstance: Utilizing Semantic Search to Track Russian State Media Narratives about the Russo-Ukrainian War On Reddit}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}  \bibinfo{volume}{17} (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Hastie(2017)]%
+        {hastie2017generalized}
+\bibfield{author}{\bibinfo{person}{Trevor~J Hastie}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Generalized additive models}.
+\newblock In \bibinfo{booktitle}{\emph{Statistical models in S}}. \bibinfo{publisher}{Routledge}, \bibinfo{pages}{249--307}.
+\newblock
+
+
+\bibitem[He et~al\mbox{.}(2022)]%
+        {he2022debertav3}
+\bibfield{author}{\bibinfo{person}{Pengcheng He}, \bibinfo{person}{Jianfeng Gao}, {and} \bibinfo{person}{Weizhu Chen}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing}. In \bibinfo{booktitle}{\emph{The Eleventh International Conference on Learning Representations}}.
+\newblock
+
+
+\bibitem[Hickey et~al\mbox{.}(2023)]%
+        {hickey2023auditing}
+\bibfield{author}{\bibinfo{person}{Daniel Hickey}, \bibinfo{person}{Matheus Schmitz}, \bibinfo{person}{Daniel Fessler}, \bibinfo{person}{Paul~E Smaldino}, \bibinfo{person}{Goran Muric}, {and} \bibinfo{person}{Keith Burghardt}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Auditing Elon Musk’s impact on hate speech and bots}. In \bibinfo{booktitle}{\emph{Proceedings of the international AAAI conference on web and social media}}, Vol.~\bibinfo{volume}{17}. \bibinfo{pages}{1133--1137}.
+\newblock
+
+
+\bibitem[Hong and Kim(2016)]%
+        {hong2016political}
+\bibfield{author}{\bibinfo{person}{Sounman Hong} {and} \bibinfo{person}{Sun~Hyoung Kim}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Political polarization on twitter: Implications for the use of social media in digital governments}.
+\newblock \bibinfo{journal}{\emph{Government Information Quarterly}} \bibinfo{volume}{33}, \bibinfo{number}{4} (\bibinfo{year}{2016}), \bibinfo{pages}{777--782}.
+\newblock
+
+
+\bibitem[Hua et~al\mbox{.}(2020)]%
+        {hua2020characterizing}
+\bibfield{author}{\bibinfo{person}{Yiqing Hua}, \bibinfo{person}{Mor Naaman}, {and} \bibinfo{person}{Thomas Ristenpart}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Characterizing twitter users who engage in adversarial interactions against political candidates}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020 CHI conference on human factors in computing systems}}. \bibinfo{pages}{1--13}.
+\newblock
+
+
+\bibitem[Huckfeldt et~al\mbox{.}(1995)]%
+        {huckfeldt1995political}
+\bibfield{author}{\bibinfo{person}{Robert Huckfeldt}, \bibinfo{person}{Paul~Allen Beck}, \bibinfo{person}{Russell~J Dalton}, {and} \bibinfo{person}{Jeffrey Levine}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{Political environments, cohesive social groups, and the communication of public opinion}.
+\newblock \bibinfo{journal}{\emph{American Journal of Political Science}} (\bibinfo{year}{1995}), \bibinfo{pages}{1025--1054}.
+\newblock
+
+
+\bibitem[Hulse(2018)]%
+        {Hulse2018}
+\bibfield{author}{\bibinfo{person}{Carl Hulse}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{‘Moscow Mitch’ Tag Enrages McConnell and Squeezes G.O.P. on Election Security - The New York Times}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.nytimes.com/2019/07/30/us/politics/moscow-mitch-mcconnell.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Imhoff et~al\mbox{.}(2022)]%
+        {imhoff2022conspiracy}
+\bibfield{author}{\bibinfo{person}{Roland Imhoff}, \bibinfo{person}{Felix Zimmer}, \bibinfo{person}{Olivier Klein}, \bibinfo{person}{Jo{\~a}o~HC Ant{\'o}nio}, \bibinfo{person}{Maria Babinska}, \bibinfo{person}{Adrian Bangerter}, \bibinfo{person}{Michal Bilewicz}, \bibinfo{person}{Neboj{\v{s}}a Blanu{\v{s}}a}, \bibinfo{person}{Kosta Bovan}, \bibinfo{person}{Rumena Bu{\v{z}}arovska}, {et~al\mbox{.}}} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Conspiracy mentality and political orientation across 26 countries}.
+\newblock \bibinfo{journal}{\emph{Nature human behaviour}} \bibinfo{volume}{6}, \bibinfo{number}{3} (\bibinfo{year}{2022}), \bibinfo{pages}{392--403}.
+\newblock
+
+
+\bibitem[Ivanova(2023)]%
+        {Ivanova2023}
+\bibfield{author}{\bibinfo{person}{Irina Ivanova}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Twitter is now X. Here's what that means.}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.cbsnews.com/news/twitter-rebrand-x-name-change-elon-musk-what-it-means/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Jain et~al\mbox{.}(2018)]%
+        {jain2018adversarial}
+\bibfield{author}{\bibinfo{person}{Edwin Jain}, \bibinfo{person}{Stephan Brown}, \bibinfo{person}{Jeffery Chen}, \bibinfo{person}{Erin Neaton}, \bibinfo{person}{Mohammad Baidas}, \bibinfo{person}{Ziqian Dong}, \bibinfo{person}{Huanying Gu}, {and} \bibinfo{person}{Nabi~Sertac Artan}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Adversarial text generation for google's perspective api}. In \bibinfo{booktitle}{\emph{2018 international conference on computational science and computational intelligence (CSCI)}}. IEEE, \bibinfo{pages}{1136--1141}.
+\newblock
+
+
+\bibitem[Jhaver et~al\mbox{.}(2018)]%
+        {jhaver2018online}
+\bibfield{author}{\bibinfo{person}{Shagun Jhaver}, \bibinfo{person}{Sucheta Ghoshal}, \bibinfo{person}{Amy Bruckman}, {and} \bibinfo{person}{Eric Gilbert}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Online harassment and content moderation: The case of blocklists}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Computer-Human Interaction (TOCHI)}} \bibinfo{volume}{25}, \bibinfo{number}{2} (\bibinfo{year}{2018}), \bibinfo{pages}{1--33}.
+\newblock
+
+
+\bibitem[Jigsaw(2022)]%
+        {perspectiveapi}
+\bibfield{author}{\bibinfo{person}{Google Jigsaw}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Google Jigsaw. Perspective API}.
+\newblock \bibinfo{howpublished}{\url{https://www.perspectiveapi.com/home}}.
+\newblock
+
+
+\bibitem[Jungherr(2014)]%
+        {jungherr2014twitter}
+\bibfield{author}{\bibinfo{person}{Andreas Jungherr}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Twitter in politics: a comprehensive literature review}.
+\newblock \bibinfo{journal}{\emph{Available at SSRN 2402443}} (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[Kamin(2019)]%
+        {kamin2019social}
+\bibfield{author}{\bibinfo{person}{Julia Kamin}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Social Media and Information Polarization: Amplifying Echoes or Extremes?}}
+\newblock \bibinfo{thesistype}{Ph.\,D. Dissertation}.
+\newblock
+
+
+\bibitem[Karami et~al\mbox{.}(2020)]%
+        {karami2020twitter}
+\bibfield{author}{\bibinfo{person}{Amir Karami}, \bibinfo{person}{Morgan Lundy}, \bibinfo{person}{Frank Webb}, {and} \bibinfo{person}{Yogesh~K Dwivedi}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Twitter and research: A systematic literature review through text mining}.
+\newblock \bibinfo{journal}{\emph{IEEE Access}}  \bibinfo{volume}{8} (\bibinfo{year}{2020}), \bibinfo{pages}{67698--67717}.
+\newblock
+
+
+\bibitem[Kim and Kim(2019)]%
+        {kim2019incivility}
+\bibfield{author}{\bibinfo{person}{Yonghwan Kim} {and} \bibinfo{person}{Youngju Kim}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Incivility on Facebook and political polarization: The mediating role of seeking further comments and negative emotion}.
+\newblock \bibinfo{journal}{\emph{Computers in Human Behavior}}  \bibinfo{volume}{99} (\bibinfo{year}{2019}), \bibinfo{pages}{219--227}.
+\newblock
+
+
+\bibitem[Kraut et~al\mbox{.}(2010)]%
+        {kraut2010dealing}
+\bibfield{author}{\bibinfo{person}{Robert Kraut}, \bibinfo{person}{Moira Burke}, \bibinfo{person}{John Riedl}, {and} \bibinfo{person}{Paul Resnick}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Dealing with newcomers}.
+\newblock \bibinfo{journal}{\emph{Evidencebased Social Design Mining the Social Sciences to Build Online Communities}}  \bibinfo{volume}{1} (\bibinfo{year}{2010}), \bibinfo{pages}{42}.
+\newblock
+
+
+\bibitem[Kubin and Von~Sikorski(2021)]%
+        {kubin2021role}
+\bibfield{author}{\bibinfo{person}{Emily Kubin} {and} \bibinfo{person}{Christian Von~Sikorski}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The role of (social) media in political polarization: a systematic review}.
+\newblock \bibinfo{journal}{\emph{Annals of the International Communication Association}} \bibinfo{volume}{45}, \bibinfo{number}{3} (\bibinfo{year}{2021}), \bibinfo{pages}{188--206}.
+\newblock
+
+
+\bibitem[Kulis and Jordan(2011)]%
+        {kulis2011revisiting}
+\bibfield{author}{\bibinfo{person}{Brian Kulis} {and} \bibinfo{person}{Michael~I Jordan}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Revisiting k-means: New algorithms via Bayesian nonparametrics}.
+\newblock \bibinfo{journal}{\emph{arXiv:1111.0352}} (\bibinfo{year}{2011}).
+\newblock
+
+
+\bibitem[Kumar et~al\mbox{.}(2023)]%
+        {kumar2023understanding}
+\bibfield{author}{\bibinfo{person}{Deepak Kumar}, \bibinfo{person}{Jeff Hancock}, \bibinfo{person}{Kurt Thomas}, {and} \bibinfo{person}{Zakir Durumeric}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Understanding the behaviors of toxic accounts on reddit}. In \bibinfo{booktitle}{\emph{Proceedings of the ACM Web Conference 2023}}. \bibinfo{pages}{2797--2807}.
+\newblock
+
+
+\bibitem[Kumar et~al\mbox{.}(2021)]%
+        {kumar2021designing}
+\bibfield{author}{\bibinfo{person}{Deepak Kumar}, \bibinfo{person}{Patrick~Gage Kelley}, \bibinfo{person}{Sunny Consolvo}, \bibinfo{person}{Joshua Mason}, \bibinfo{person}{Elie Bursztein}, \bibinfo{person}{Zakir Durumeric}, \bibinfo{person}{Kurt Thomas}, {and} \bibinfo{person}{Michael Bailey}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Designing Toxic Content Classification for a Diversity of Perspectives}. In \bibinfo{booktitle}{\emph{Seventeenth Symposium on Usable Privacy and Security (SOUPS 2021)}}. \bibinfo{pages}{299--318}.
+\newblock
+
+
+\bibitem[Kwon and Gruzd(2017)]%
+        {kwon2017offensive}
+\bibfield{author}{\bibinfo{person}{K~Hazel Kwon} {and} \bibinfo{person}{Anatoliy Gruzd}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Is offensive commenting contagious online? Examining public vs interpersonal swearing in response to Donald Trump’s YouTube campaign videos}.
+\newblock \bibinfo{journal}{\emph{Internet Research}} (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[Lai et~al\mbox{.}(2022)]%
+        {lai2022human}
+\bibfield{author}{\bibinfo{person}{Vivian Lai}, \bibinfo{person}{Samuel Carton}, \bibinfo{person}{Rajat Bhatnagar}, \bibinfo{person}{Q~Vera Liao}, \bibinfo{person}{Yunfeng Zhang}, {and} \bibinfo{person}{Chenhao Tan}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Human-ai collaboration via conditional delegation: A case study of content moderation}. In \bibinfo{booktitle}{\emph{Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems}}. \bibinfo{pages}{1--18}.
+\newblock
+
+
+\bibitem[Le et~al\mbox{.}(2022)]%
+        {le2022perturbations}
+\bibfield{author}{\bibinfo{person}{Thai Le}, \bibinfo{person}{Jooyoung Lee}, \bibinfo{person}{Kevin Yen}, \bibinfo{person}{Yifan Hu}, {and} \bibinfo{person}{Dongwon Lee}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Perturbations in the Wild: Leveraging Human-Written Text Perturbations for Realistic Adversarial Attack and Defense}.
+\newblock \bibinfo{journal}{\emph{60th Annual Meeting of the Association for Computational Linguistics (ACL)}} (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Lees et~al\mbox{.}(2022)]%
+        {lees2022new}
+\bibfield{author}{\bibinfo{person}{Alyssa Lees}, \bibinfo{person}{Vinh~Q Tran}, \bibinfo{person}{Yi Tay}, \bibinfo{person}{Jeffrey Sorensen}, \bibinfo{person}{Jai Gupta}, \bibinfo{person}{Donald Metzler}, {and} \bibinfo{person}{Lucy Vasserman}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{A new generation of perspective api: Efficient multilingual character-level transformers}. In \bibinfo{booktitle}{\emph{Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining}}. \bibinfo{pages}{3197--3207}.
+\newblock
+
+
+\bibitem[Levy et~al\mbox{.}(2022)]%
+        {levy2022understanding}
+\bibfield{author}{\bibinfo{person}{Sharon Levy}, \bibinfo{person}{Robert~E Kraut}, \bibinfo{person}{Jane~A Yu}, \bibinfo{person}{Kristen~M Altenburger}, {and} \bibinfo{person}{Yi-Chia Wang}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Understanding Conflicts in Online Conversations}. In \bibinfo{booktitle}{\emph{Proceedings of the ACM Web Conference 2022}}. \bibinfo{pages}{2592--2602}.
+\newblock
+
+
+\bibitem[Liang et~al\mbox{.}(2022)]%
+        {liang2022jointcl}
+\bibfield{author}{\bibinfo{person}{Bin Liang}, \bibinfo{person}{Qinlin Zhu}, \bibinfo{person}{Xiang Li}, \bibinfo{person}{Min Yang}, \bibinfo{person}{Lin Gui}, \bibinfo{person}{Yulan He}, {and} \bibinfo{person}{Ruifeng Xu}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Jointcl: A joint contrastive learning framework for zero-shot stance detection}. In \bibinfo{booktitle}{\emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}}, Vol.~\bibinfo{volume}{1}. Association for Computational Linguistics, \bibinfo{pages}{81--91}.
+\newblock
+
+
+\bibitem[Mack(2019)]%
+        {Mack2019}
+\bibfield{author}{\bibinfo{person}{Tim Mack}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{NRA Was 'Foreign Asset' To Russia Ahead of 2016, New Senate Report Reveals}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.npr.org/2019/09/27/764879242/nra-was-foreign-asset-to-russia-ahead-of-2016-new-senate-report-reveals}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Mamakos and Finkel(2023)]%
+        {mamakos2023social}
+\bibfield{author}{\bibinfo{person}{Michalis Mamakos} {and} \bibinfo{person}{Eli~J Finkel}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{The social media discourse of engaged partisans is toxic even when politics are irrelevant}.
+\newblock \bibinfo{journal}{\emph{PNAS nexus}} \bibinfo{volume}{2}, \bibinfo{number}{10} (\bibinfo{year}{2023}), \bibinfo{pages}{pgad325}.
+\newblock
+
+
+\bibitem[Marozzo and Bessi(2018)]%
+        {marozzo2018analyzing}
+\bibfield{author}{\bibinfo{person}{Fabrizio Marozzo} {and} \bibinfo{person}{Alessandro Bessi}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Analyzing polarization of social media users and news sites during political campaigns}.
+\newblock \bibinfo{journal}{\emph{Social Network Analysis and Mining}}  \bibinfo{volume}{8} (\bibinfo{year}{2018}), \bibinfo{pages}{1--13}.
+\newblock
+
+
+\bibitem[Marwick and Boyd(2011)]%
+        {marwick2011see}
+\bibfield{author}{\bibinfo{person}{Alice Marwick} {and} \bibinfo{person}{Danah Boyd}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{To see and be seen: Celebrity practice on Twitter}.
+\newblock \bibinfo{journal}{\emph{Convergence}} \bibinfo{volume}{17}, \bibinfo{number}{2} (\bibinfo{year}{2011}), \bibinfo{pages}{139--158}.
+\newblock
+
+
+\bibitem[McPherson et~al\mbox{.}(2001)]%
+        {mcpherson2001birds}
+\bibfield{author}{\bibinfo{person}{Miller McPherson}, \bibinfo{person}{Lynn Smith-Lovin}, {and} \bibinfo{person}{James~M Cook}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Birds of a feather: Homophily in social networks}.
+\newblock \bibinfo{journal}{\emph{Annual review of sociology}} (\bibinfo{year}{2001}), \bibinfo{pages}{415--444}.
+\newblock
+
+
+\bibitem[Montanaro(2022)]%
+        {Montanaro2022}
+\bibfield{author}{\bibinfo{person}{Domenico Montanaro}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Abortion, inflation, Ukraine: 2022's top U.S. political stories : NPR}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.npr.org/2022/12/31/1146261338/2022-political-stories-midterms-abortion-inflation-immigration-ukraine}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Munson and Resnick(2010)]%
+        {munson2010presenting}
+\bibfield{author}{\bibinfo{person}{Sean~A Munson} {and} \bibinfo{person}{Paul Resnick}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Presenting diverse political opinions: how and how much}. In \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI conference on human factors in computing systems}}. \bibinfo{pages}{1457--1466}.
+\newblock
+
+
+\bibitem[Nelimarkka et~al\mbox{.}(2018)]%
+        {nelimarkka2018social}
+\bibfield{author}{\bibinfo{person}{Matti Nelimarkka}, \bibinfo{person}{Salla-Maaria Laaksonen}, {and} \bibinfo{person}{Bryan Semaan}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Social media is polarized, social media is polarized: towards a new design agenda for mitigating polarization}. In \bibinfo{booktitle}{\emph{Proceedings of the 2018 designing interactive systems conference}}. \bibinfo{pages}{957--970}.
+\newblock
+
+
+\bibitem[Nobata et~al\mbox{.}(2016)]%
+        {nobata2016abusive}
+\bibfield{author}{\bibinfo{person}{Chikashi Nobata}, \bibinfo{person}{Joel Tetreault}, \bibinfo{person}{Achint Thomas}, \bibinfo{person}{Yashar Mehdad}, {and} \bibinfo{person}{Yi Chang}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Abusive language detection in online user content}. In \bibinfo{booktitle}{\emph{Proceedings of the 25th international conference on world wide web}}. \bibinfo{pages}{145--153}.
+\newblock
+
+
+\bibitem[Persily(2017)]%
+        {persily20172016}
+\bibfield{author}{\bibinfo{person}{Nathaniel Persily}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{The 2016 US Election: Can democracy survive the internet?}
+\newblock \bibinfo{journal}{\emph{Journal of democracy}} \bibinfo{volume}{28}, \bibinfo{number}{2} (\bibinfo{year}{2017}), \bibinfo{pages}{63--76}.
+\newblock
+
+
+\bibitem[Poole and Rosenthal(2007)]%
+        {poole2007party}
+\bibfield{author}{\bibinfo{person}{Keith~T Poole} {and} \bibinfo{person}{Howard Rosenthal}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{On party polarization in Congress}.
+\newblock \bibinfo{journal}{\emph{Daedalus}} \bibinfo{volume}{136}, \bibinfo{number}{3} (\bibinfo{year}{2007}), \bibinfo{pages}{104--107}.
+\newblock
+
+
+\bibitem[Prochaska et~al\mbox{.}(2023)]%
+        {prochaska2023mobilizing}
+\bibfield{author}{\bibinfo{person}{Stephen Prochaska}, \bibinfo{person}{Kayla Duskin}, \bibinfo{person}{Zarine Kharazian}, \bibinfo{person}{Carly Minow}, \bibinfo{person}{Stephanie Blucker}, \bibinfo{person}{Sylvie Venuto}, \bibinfo{person}{Jevin~D West}, {and} \bibinfo{person}{Kate Starbird}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Mobilizing manufactured reality: how participatory disinformation shaped deep stories to catalyze action during the 2020 US Presidential election}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on human-computer interaction}} \bibinfo{volume}{7}, \bibinfo{number}{CSCW1} (\bibinfo{year}{2023}), \bibinfo{pages}{1--39}.
+\newblock
+
+
+\bibitem[Quattrociocchi et~al\mbox{.}(2011)]%
+        {quattrociocchi2011opinions}
+\bibfield{author}{\bibinfo{person}{Walter Quattrociocchi}, \bibinfo{person}{Rosaria Conte}, {and} \bibinfo{person}{Elena Lodi}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Opinions manipulation: Media, power and gossip}.
+\newblock \bibinfo{journal}{\emph{Advances in Complex Systems}} \bibinfo{volume}{14}, \bibinfo{number}{04} (\bibinfo{year}{2011}), \bibinfo{pages}{567--586}.
+\newblock
+
+
+\bibitem[Quattrociocchi et~al\mbox{.}(2016)]%
+        {quattrociocchi2016echo}
+\bibfield{author}{\bibinfo{person}{Walter Quattrociocchi}, \bibinfo{person}{Antonio Scala}, {and} \bibinfo{person}{Cass~R Sunstein}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Echo chambers on Facebook}.
+\newblock \bibinfo{journal}{\emph{Available at SSRN 2795110}} (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[Quercia et~al\mbox{.}(2012)]%
+        {quercia2012social}
+\bibfield{author}{\bibinfo{person}{Daniele Quercia}, \bibinfo{person}{Licia Capra}, {and} \bibinfo{person}{Jon Crowcroft}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{The social world of twitter: Topics, geography, and emotions}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{6}. \bibinfo{pages}{298--305}.
+\newblock
+
+
+\bibitem[Rains et~al\mbox{.}(2017)]%
+        {rains2017incivility}
+\bibfield{author}{\bibinfo{person}{Stephen~A Rains}, \bibinfo{person}{Kate Kenski}, \bibinfo{person}{Kevin Coe}, {and} \bibinfo{person}{Jake Harwood}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Incivility and political identity on the Internet: Intergroup factors as predictors of incivility in discussions of news online}.
+\newblock \bibinfo{journal}{\emph{Journal of Computer-Mediated Communication}} \bibinfo{volume}{22}, \bibinfo{number}{4} (\bibinfo{year}{2017}), \bibinfo{pages}{163--178}.
+\newblock
+
+
+\bibitem[Rajadesingan et~al\mbox{.}(2021)]%
+        {rajadesingan2021political}
+\bibfield{author}{\bibinfo{person}{Ashwin Rajadesingan}, \bibinfo{person}{Ceren Budak}, {and} \bibinfo{person}{Paul Resnick}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Political discussion is abundant in non-political subreddits (and less toxic)}. In \bibinfo{booktitle}{\emph{Proceedings of the Fifteenth International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{15}.
+\newblock
+
+
+\bibitem[Rajadesingan et~al\mbox{.}(2020)]%
+        {rajadesingan2020quick}
+\bibfield{author}{\bibinfo{person}{Ashwin Rajadesingan}, \bibinfo{person}{Paul Resnick}, {and} \bibinfo{person}{Ceren Budak}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Quick, community-specific learning: How distinctive toxicity norms are maintained in political subreddits}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{14}. \bibinfo{pages}{557--568}.
+\newblock
+
+
+\bibitem[Relia et~al\mbox{.}(2019)]%
+        {relia2019race}
+\bibfield{author}{\bibinfo{person}{Kunal Relia}, \bibinfo{person}{Zhengyi Li}, \bibinfo{person}{Stephanie~H Cook}, {and} \bibinfo{person}{Rumi Chunara}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Race, ethnicity and national origin-based discrimination in social media and hate crimes across 100 US cities}. In \bibinfo{booktitle}{\emph{Proceedings of the international AAAI conference on web and social media}}, Vol.~\bibinfo{volume}{13}. \bibinfo{pages}{417--427}.
+\newblock
+
+
+\bibitem[Ribeiro et~al\mbox{.}(2018)]%
+        {ribeiro2018characterizing}
+\bibfield{author}{\bibinfo{person}{Manoel Ribeiro}, \bibinfo{person}{Pedro Calais}, \bibinfo{person}{Yuri Santos}, \bibinfo{person}{Virg{\'\i}lio Almeida}, {and} \bibinfo{person}{Wagner Meira~Jr}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Characterizing and detecting hateful users on twitter}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{12}.
+\newblock
+
+
+\bibitem[Rieder and Skop(2021)]%
+        {rieder2021fabrics}
+\bibfield{author}{\bibinfo{person}{Bernhard Rieder} {and} \bibinfo{person}{Yarden Skop}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The fabrics of machine moderation: Studying the technical, normative, and organizational structure of Perspective API}.
+\newblock \bibinfo{journal}{\emph{Big Data \& Society}} \bibinfo{volume}{8}, \bibinfo{number}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{20539517211046181}.
+\newblock
+
+
+\bibitem[Rogowski and Sutherland(2016)]%
+        {rogowski2016ideology}
+\bibfield{author}{\bibinfo{person}{Jon~C Rogowski} {and} \bibinfo{person}{Joseph~L Sutherland}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{How ideology fuels affective polarization}.
+\newblock \bibinfo{journal}{\emph{Political behavior}}  \bibinfo{volume}{38} (\bibinfo{year}{2016}), \bibinfo{pages}{485--508}.
+\newblock
+
+
+\bibitem[Salehabadi et~al\mbox{.}(2022)]%
+        {salehabadi2022user}
+\bibfield{author}{\bibinfo{person}{Nazanin Salehabadi}, \bibinfo{person}{Anne Groggel}, \bibinfo{person}{Mohit Singhal}, \bibinfo{person}{Sayak~Saha Roy}, {and} \bibinfo{person}{Shirin Nilizadeh}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{User Engagement and the Toxicity of Tweets}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2211.03856}} (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Salminen et~al\mbox{.}(2020)]%
+        {salminen2020topic}
+\bibfield{author}{\bibinfo{person}{Joni Salminen}, \bibinfo{person}{Sercan Seng{\"u}n}, \bibinfo{person}{Juan Corporan}, \bibinfo{person}{Soon-gyo Jung}, {and} \bibinfo{person}{Bernard~J Jansen}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Topic-driven toxicity: Exploring the relationship between online toxicity and news topics}.
+\newblock \bibinfo{journal}{\emph{PloS one}} \bibinfo{volume}{15}, \bibinfo{number}{2} (\bibinfo{year}{2020}), \bibinfo{pages}{e0228723}.
+\newblock
+
+
+\bibitem[Saveski et~al\mbox{.}(2022a)]%
+        {saveski2022engaging}
+\bibfield{author}{\bibinfo{person}{Martin Saveski}, \bibinfo{person}{Doug Beeferman}, \bibinfo{person}{David McClure}, {and} \bibinfo{person}{Deb Roy}.} \bibinfo{year}{2022}\natexlab{a}.
+\newblock \showarticletitle{Engaging Politically Diverse Audiences on Social Media}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{16}. \bibinfo{pages}{873--884}.
+\newblock
+
+
+\bibitem[Saveski et~al\mbox{.}(2022b)]%
+        {saveski2022perspective}
+\bibfield{author}{\bibinfo{person}{Martin Saveski}, \bibinfo{person}{Nabeel Gillani}, \bibinfo{person}{Ann Yuan}, \bibinfo{person}{Prashanth Vijayaraghavan}, {and} \bibinfo{person}{Deb Roy}.} \bibinfo{year}{2022}\natexlab{b}.
+\newblock \showarticletitle{Perspective-taking to reduce affective polarization on social media}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{16}. \bibinfo{pages}{885--895}.
+\newblock
+
+
+\bibitem[Saveski et~al\mbox{.}(2021)]%
+        {saveski2021structure}
+\bibfield{author}{\bibinfo{person}{Martin Saveski}, \bibinfo{person}{Brandon Roy}, {and} \bibinfo{person}{Deb Roy}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The structure of toxic conversations on Twitter}. In \bibinfo{booktitle}{\emph{Proceedings of the Web Conference 2021}}. \bibinfo{pages}{1086--1097}.
+\newblock
+
+
+\bibitem[Shen et~al\mbox{.}(2020)]%
+        {shen2020viral}
+\bibfield{author}{\bibinfo{person}{Cuihua Shen}, \bibinfo{person}{Qiusi Sun}, \bibinfo{person}{Taeyoung Kim}, \bibinfo{person}{Grace Wolff}, \bibinfo{person}{Rabindra Ratan}, {and} \bibinfo{person}{Dmitri Williams}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Viral vitriol: Predictors and contagion of online toxicity in World of Tanks}.
+\newblock \bibinfo{journal}{\emph{Computers in Human Behavior}}  \bibinfo{volume}{108} (\bibinfo{year}{2020}), \bibinfo{pages}{106343}.
+\newblock
+
+
+\bibitem[Singh(2023)]%
+        {Singh2023}
+\bibfield{author}{\bibinfo{person}{Manish Singh}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Twitter limits the number of tweets users can read amid extended outage | TechCrunch}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://techcrunch.com/2023/07/01/twitter-imposes-limits-on-the-number-of-tweets-users-can-read-amid-extended-outage/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Song et~al\mbox{.}(2020)]%
+        {song2020mpnet}
+\bibfield{author}{\bibinfo{person}{Kaitao Song}, \bibinfo{person}{Xu Tan}, \bibinfo{person}{Tao Qin}, \bibinfo{person}{Jianfeng Lu}, {and} \bibinfo{person}{Tie-Yan Liu}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Mpnet: Masked and permuted pre-training for language understanding}.
+\newblock \bibinfo{journal}{\emph{Adv. in Neural Information Processing Systems}} (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Staff(2022)]%
+        {StaffAborrtion2022}
+\bibfield{author}{\bibinfo{person}{Washington~Post Staff}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Read the full opinion in Dobbs v. Jackson Women's Health O - Washington Post}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.washingtonpost.com/politics/interactive/2022/roe-wade-decision-pdf/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Starbird et~al\mbox{.}(2018)]%
+        {starbird2018ecosystem}
+\bibfield{author}{\bibinfo{person}{Kate Starbird}, \bibinfo{person}{Ahmer Arif}, \bibinfo{person}{Tom Wilson}, \bibinfo{person}{Katherine Van~Koevering}, \bibinfo{person}{Katya Yefimova}, {and} \bibinfo{person}{Daniel Scarnecchia}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{Ecosystem or echo-system? Exploring} content sharing across alternative media domains}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}.
+\newblock
+
+
+\bibitem[Suhay et~al\mbox{.}(2018)]%
+        {suhay2018polarizing}
+\bibfield{author}{\bibinfo{person}{Elizabeth Suhay}, \bibinfo{person}{Emily Bello-Pardo}, {and} \bibinfo{person}{Brianna Maurer}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The polarizing effects of online partisan criticism: Evidence from two experiments}.
+\newblock \bibinfo{journal}{\emph{The International Journal of Press/Politics}} \bibinfo{volume}{23}, \bibinfo{number}{1} (\bibinfo{year}{2018}), \bibinfo{pages}{95--115}.
+\newblock
+
+
+\bibitem[Sunstein(2018)]%
+        {sunstein2018social}
+\bibfield{author}{\bibinfo{person}{Cass~R Sunstein}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Is social media good or bad for democracy}.
+\newblock \bibinfo{journal}{\emph{SUR-Int'l J. on Hum Rts.}}  \bibinfo{volume}{27} (\bibinfo{year}{2018}), \bibinfo{pages}{83}.
+\newblock
+
+
+\bibitem[Tandoc~Jr and Johnson(2016)]%
+        {tandoc2016most}
+\bibfield{author}{\bibinfo{person}{Edson~C Tandoc~Jr} {and} \bibinfo{person}{Erika Johnson}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Most students get breaking news first from Twitter}.
+\newblock \bibinfo{journal}{\emph{Newspaper research journal}} \bibinfo{volume}{37}, \bibinfo{number}{2} (\bibinfo{year}{2016}), \bibinfo{pages}{153--166}.
+\newblock
+
+
+\bibitem[Teh(2022)]%
+        {Teh2022}
+\bibfield{author}{\bibinfo{person}{Cherl Teh}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Joe Manchin said Democratic holdout Kyrsten Sinema would do her 'due diligence' and 'make her own decision' on the Inflation Reduction Acte}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.yahoo.com/news/joe-manchin-said-democratic-holdout-060147588.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Thomas et~al\mbox{.}(2021)]%
+        {thomas2021sok}
+\bibfield{author}{\bibinfo{person}{Kurt Thomas}, \bibinfo{person}{Devdatta Akhawe}, \bibinfo{person}{Michael Bailey}, \bibinfo{person}{Dan Boneh}, \bibinfo{person}{Elie Bursztein}, \bibinfo{person}{Sunny Consolvo}, \bibinfo{person}{Nicola Dell}, \bibinfo{person}{Zakir Durumeric}, \bibinfo{person}{Patrick~Gage Kelley}, \bibinfo{person}{Deepak Kumar}, {et~al\mbox{.}}} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Sok: Hate, harassment, and the changing landscape of online abuse}. In \bibinfo{booktitle}{\emph{2021 IEEE Symposium on Security and Privacy (SP)}}. IEEE, \bibinfo{pages}{247--267}.
+\newblock
+
+
+\bibitem[Torres-Lugo et~al\mbox{.}(2022)]%
+        {torres2022manufacture}
+\bibfield{author}{\bibinfo{person}{Christopher Torres-Lugo}, \bibinfo{person}{Kai-Cheng Yang}, {and} \bibinfo{person}{Filippo Menczer}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{The Manufacture of Partisan Echo Chambers by Follow Train Abuse on Twitter}. In \bibinfo{booktitle}{\emph{Proceedings of the International AAAI Conference on Web and Social Media}}, Vol.~\bibinfo{volume}{16}. \bibinfo{pages}{1017--1028}.
+\newblock
+
+
+\bibitem[Tucker et~al\mbox{.}(2018)]%
+        {tucker2018social}
+\bibfield{author}{\bibinfo{person}{Joshua~A Tucker}, \bibinfo{person}{Andrew Guess}, \bibinfo{person}{Pablo Barber{\'a}}, \bibinfo{person}{Cristian Vaccari}, \bibinfo{person}{Alexandra Siegel}, \bibinfo{person}{Sergey Sanovich}, \bibinfo{person}{Denis Stukal}, {and} \bibinfo{person}{Brendan Nyhan}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Social media, political polarization, and political disinformation: A review of the scientific literature}.
+\newblock \bibinfo{journal}{\emph{Political polarization, and political disinformation: a review of the scientific literature (March 19, 2018)}} (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[Tucker et~al\mbox{.}(2017)]%
+        {tucker2017liberation}
+\bibfield{author}{\bibinfo{person}{Joshua~A Tucker}, \bibinfo{person}{Yannis Theocharis}, \bibinfo{person}{Margaret~E Roberts}, {and} \bibinfo{person}{Pablo Barber{\'a}}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{From liberation to turmoil: Social media and democracy}.
+\newblock \bibinfo{journal}{\emph{Journal of democracy}} \bibinfo{volume}{28}, \bibinfo{number}{4} (\bibinfo{year}{2017}), \bibinfo{pages}{46--59}.
+\newblock
+
+
+\bibitem[Turney(2001)]%
+        {turney2001mining}
+\bibfield{author}{\bibinfo{person}{Peter~D Turney}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Mining the web for synonyms: PMI-IR versus LSA on TOEFL}. In \bibinfo{booktitle}{\emph{European Conference on machine learning}}.
+\newblock
+
+
+\bibitem[Van~der Maaten and Hinton(2008)]%
+        {van2008visualizing}
+\bibfield{author}{\bibinfo{person}{Laurens Van~der Maaten} {and} \bibinfo{person}{Geoffrey Hinton}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Visualizing data using t-SNE.}
+\newblock \bibinfo{journal}{\emph{Journal of machine learning research}} \bibinfo{volume}{9}, \bibinfo{number}{11} (\bibinfo{year}{2008}).
+\newblock
+
+
+\bibitem[Wieringa et~al\mbox{.}(2018)]%
+        {wieringa2018political}
+\bibfield{author}{\bibinfo{person}{Maranke Wieringa}, \bibinfo{person}{Daniela van Geenen}, \bibinfo{person}{Mirko~Tobias Sch{\"a}fer}, {and} \bibinfo{person}{Ludo Gorzeman}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Political topic-communities and their framing practices in the Dutch Twittersphere}.
+\newblock \bibinfo{journal}{\emph{Internet Policy Review}} \bibinfo{volume}{7}, \bibinfo{number}{2} (\bibinfo{year}{2018}), \bibinfo{pages}{1--16}.
+\newblock
+
+
+\bibitem[Wojcieszak et~al\mbox{.}(2022)]%
+        {wojcieszak2022most}
+\bibfield{author}{\bibinfo{person}{Magdalena Wojcieszak}, \bibinfo{person}{Andreu Casas}, \bibinfo{person}{Xudong Yu}, \bibinfo{person}{Jonathan Nagler}, {and} \bibinfo{person}{Joshua~A Tucker}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Most users do not follow political elites on Twitter; those who do show overwhelming preferences for ideological congruity}.
+\newblock \bibinfo{journal}{\emph{Science advances}} \bibinfo{volume}{8}, \bibinfo{number}{39} (\bibinfo{year}{2022}), \bibinfo{pages}{eabn9418}.
+\newblock
+
+
+\bibitem[Wojcieszak and Mutz(2009)]%
+        {wojcieszak2009online}
+\bibfield{author}{\bibinfo{person}{Magdalena~E Wojcieszak} {and} \bibinfo{person}{Diana~C Mutz}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Online groups and political discourse: Do online discussion spaces facilitate exposure to political disagreement?}
+\newblock \bibinfo{journal}{\emph{Journal of communication}} \bibinfo{volume}{59}, \bibinfo{number}{1} (\bibinfo{year}{2009}), \bibinfo{pages}{40--56}.
+\newblock
+
+
+\bibitem[Wulczyn et~al\mbox{.}(2017)]%
+        {wulczyn2017ex}
+\bibfield{author}{\bibinfo{person}{Ellery Wulczyn}, \bibinfo{person}{Nithum Thain}, {and} \bibinfo{person}{Lucas Dixon}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Ex machina: Personal attacks seen at scale}. In \bibinfo{booktitle}{\emph{Proceedings of the 26th international conference on world wide web}}. \bibinfo{pages}{1391--1399}.
+\newblock
+
+
+\bibitem[Xia et~al\mbox{.}(2020)]%
+        {xia2020exploring}
+\bibfield{author}{\bibinfo{person}{Yan Xia}, \bibinfo{person}{Haiyi Zhu}, \bibinfo{person}{Tun Lu}, \bibinfo{person}{Peng Zhang}, {and} \bibinfo{person}{Ning Gu}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Exploring antecedents and consequences of toxicity in online discussions: A case study on reddit}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-computer Interaction}} \bibinfo{volume}{4}, \bibinfo{number}{CSCW2} (\bibinfo{year}{2020}), \bibinfo{pages}{1--23}.
+\newblock
+
+
+\bibitem[Xiao et~al\mbox{.}(2021)]%
+        {xiao2021sensemaking}
+\bibfield{author}{\bibinfo{person}{Sijia Xiao}, \bibinfo{person}{Coye Cheshire}, {and} \bibinfo{person}{Amy Bruckman}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Sensemaking and the Chemtrail Conspiracy on the Internet: Insights from Believers and Ex-believers}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer Interaction}} \bibinfo{volume}{5}, \bibinfo{number}{CSCW2} (\bibinfo{year}{2021}), \bibinfo{pages}{1--28}.
+\newblock
+
+
+\bibitem[Zipkin(2022)]%
+        {Zipkin2022}
+\bibfield{author}{\bibinfo{person}{Michele Zipkin}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{In Philly, Democratic U.S. Senate candidates battle for votes}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.goerie.com/story/news/politics/elections/2022/04/25/voters-guide-2022-us-senate-race-pennsylvania-primary-election/65347423007/}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}
