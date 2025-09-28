@@ -1,5 +1,9 @@
 # Twits, Toxic Tweets, and Tribal Tendencies
 
+Authors: Hans W. A. Hanley, Zakir Durumeric
+Social media platforms are often blamed for exacerbating political polarization and worsening public dialogue. Many claim that hyperpartisan users post pernicious content slanted toward their political views, inciting contentious and toxic conversations. However, what factors are actually associated with increased online toxicity and negative interactions? In this work, we explore the role that partisanship and affective polarization play in contributing to toxicity both at the individual user level and at the topic level on Twitter/X. To do this, we train and open-source a DeBERTa-based toxicity detector that outperforms the Google Jigsaw Perspective API toxicity detector on the Civil Comments test dataset. After collecting 89.6~million tweets from 43,151~US-based Twitter/X users, we then examine how several account-level characteristics—including partisanship along the US left–right political spectrum—predict how often users post toxic content. Using a Generalized Additive Model (GAM), we find that both the diversity of views and the toxicity of other accounts with which users engage have a marked effect on users' own toxicity. Specifically, toxicity is correlated with users who engage with a wider array of political views. Performing topic analysis on the toxic content posted by these accounts using the large language model MPNet and a version of the DP-Means clustering algorithm, we find similar patterns across 5,288 topics, with users becoming more toxic as they engage with a broader diversity of politically charged topics.
+
+
 ## Overview
 This repository accompanies the paper *Twits, Toxic Tweets, and Tribal Tendencies: Trends in Politically Polarized Posts on Twitter* (arXiv:2307.10349). The study examines how partisanship, affective polarization, and user interactions relate to toxic speech on Twitter/X during 2022. It combines a new open-source toxicity detector with large-scale analyses of user behaviour and topic dynamics to quantify when and how political conversations become uncivil.
 
@@ -20,48 +24,9 @@ Due to Twitter’s current API terms, the raw dataset cannot be redistributed. R
 
 ## Toxicity Classifier
 - Architecture: DeBERTa v3 backbone with an added contrastive embedding head trained on Civil Comments plus adversarial perturbations [twits_source/methodology.tex:33].
-- Benchmarks: achieves MAE 0.0601 / 0.0609 and F1 0.851 / 0.852 on Civil Comments validation/test, outperforming the Perspective API and standard DeBERTa finetuning [twits_source/methodology.tex:54]. A secondary evaluation on Kumar et al.’s social media toxicity set shows competitive gains (MAE 0.251 vs. Perspective’s 0.277) [twits_source/methodology.tex:54].
-- Availability: the arXiv version references a forthcoming GitHub release for model weights (redacted during review). Update this README with the final URL once the repository is public.
+- Benchmarks: achieves MAE 0.0601 / 0.0609 and F1 0.851 / 0.852 on Civil Comments validation/test, outperforming the Perspective API and standard DeBERTa finetuning. A secondary evaluation on Kumar et al.’s social media toxicity set shows competitive gains (MAE 0.251 vs. Perspective’s 0.277).
+- Availability:  To request the weights of the model used in this work, please fill out the following [Google form](https://forms.gle/ASzCcywsQ4Pd9Eyh6)
 
-## Analytical Approach
-- **Ideology estimation:** correspondence analysis on the follower network projects users into a one-dimensional left/right space [twits_source/methodology.tex:6].
-- **User-level modelling:** a generalized additive model (pyGAM) relates ten covariates—account metadata, ideology, ideological diversity of mentions, and interlocutors’ toxicity—to each user’s average toxicity [twits_source/polarization.tex:6].
-- **Topic pipeline:** toxic tweets (score >0.5) are embedded with MPNet, clustered using DP-Means (λ = 0.60), and summarised via representative tweets and PMI keywords [twits_source/methodology.tex:133].
-- **Topic-level modelling:** a second GAM explains per-topic toxicity using participant characteristics (ideology moments, verification rates, toxicity norms, audience size) [twits_source/topics.tex:331].
-
-## Main Findings
-- Interacting with toxic accounts is the strongest predictor of a user’s own toxicity (ρ = 0.318; permutation importance 0.374) [twits_source/polarization.tex:120].
-- Cross-ideological exposure matters: the standard deviation of mentioned users’ ideologies (ρ = 0.317) and the absolute ideological gap between a user and their mentions (ρ = 0.287) both correlate with higher toxicity [twits_source/polarization.tex:184] [twits_source/polarization.tex:154].
-- Ideological position alone is weakly related to toxicity; extreme-left or extreme-right users are not inherently more toxic once interaction patterns are controlled [twits_source/polarization.tex:143].
-- Topic toxicity is driven primarily by the toxicity of participating users (ρ = 0.58; permutation importance 0.50), while larger, more diverse participation can dampen toxicity [twits_source/topics.tex:331].
-- Shifts in average ideology within a topic have little direct effect on toxicity (ρ = −0.017), but sudden influxes of opposing viewpoints can spark short-lived toxicity spikes tied to specific controversies [twits_source/topics.tex:111].
-
-## Repository Layout
-- `twits_source/paper.tex` – Master LaTeX file including all sections.
-- `twits_source/*.tex` – Section-wise LaTeX sources (introduction, methodology, results, discussion, limitations, appendix).
-- `twits_source/figures/` – Vector figures referenced in the manuscript.
-- `twits_source/paper.bbl` – Compiled bibliography.
-
-Additional artefacts (e.g., trained model weights, code notebooks) should be linked here once released.
-
-## Building the Manuscript
-To render the PDF locally, install a recent TeX distribution with `latexmk` and run:
-
-```bash
-cd twits_source
-latexmk -pdf paper.tex
-```
-
-Clean auxiliary files with `latexmk -c` when needed. The build depends on the ACM article class (`acmart.cls`) distributed with the source bundle.
-
-## Reproducing the Analyses
-1. Collect tweets for the target account cohort (see *Data and Collection Pipeline*).
-2. Label toxicity scores using the released contrastive DeBERTa model (or, for comparison, Google’s Perspective API).
-3. Recreate ideology estimates via correspondence analysis on the follower graph.
-4. Fit the GAMs for user- and topic-level toxicity with the original covariates.
-5. Embed toxic tweets with MPNet, cluster with DP-Means (λ = 0.60), and summarise clusters via PMI keywords and representative tweets.
-
-Because the original Twitter data cannot be redistributed, replication requires independent data access plus adherence to platform policies.
 
 ## Citation
 ```
@@ -74,3 +39,20 @@ Because the original Twitter data cannot be redistributed, replication requires 
 ```
 
 Please cite the paper if you use the materials in this repository and consider opening issues or pull requests with improvements or replication notes.
+
+
+## License and Copyright
+
+Copyright 2025 The Board of Trustees of The Leland Stanford Junior University
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
